@@ -1,0 +1,90 @@
+h1 {
+  position: relative;
+  left: 50px;
+  top: 10px;
+}
+
+.searchButton {
+  position: relative;
+  left: 410px;
+  top: -81px;
+  margin: 10px auto;
+  padding: 5px 10px 5px 10px;
+  background: #6d9886;
+  border: 1px solid #6d9886;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  transition: all 200ms ease-in-out;
+  font-size: medium;
+  color: #f2e7d5;
+}
+.currentButton {
+  position: relative;
+  left: 420px;
+  top: -81px;
+  margin: 10px auto;
+  padding: 5px 10px 5px 10px;
+  background: #6d9886;
+  border: 1px solid #6d9886;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  transition: all 200ms ease-in-out;
+  font-size: medium;
+  color: #f2e7d5;
+}
+
+body {
+  border: 2px solid #6d9886;
+  padding: 15px;
+  margin: 25px auto;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+.temperature {
+  font-size: 45px;
+  position: relative;
+  top: 20px;
+  left: -20px;
+  font-weight: bold;
+  color: #6d9886;
+}
+
+.sa-cloud-moon {
+  position: relative;
+  left: -18px;
+  top: 15px;
+  font-size: 30px;
+}
+.units {
+  font-size: 20px;
+  position: relative;
+  top: -15px;
+  left: -75px;
+  color: #6d9886;
+}
+.sa-text {
+  position: relative;
+  left: 145px;
+  top: -35px;
+  border-color: black;
+  font-size: 20px;
+}
+.sa-berlin {
+  position: relative;
+  left: 11px;
+}
+.sa-days {
+  position: relative;
+  top: 10px;
+  left: 6px;
+  font-size: 18px;
+  font-weight: lighter;
+  opacity: 10px;
+}
+.sa-icons {
+  position: relative;
+  top: 10px;
+  left: 6px;
+  font-size: 25px;
+}
