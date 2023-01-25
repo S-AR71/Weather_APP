@@ -1,4 +1,3 @@
-//Challenge 1
 function formatDate(date) {
   let hours = date.getHours();
   if (hours < 10) {
@@ -17,14 +16,13 @@ function formatDate(date) {
     "Wednesday",
     "Thursday",
     "Friday",
-    "Saturday"
+    "Saturday",
   ];
   let day = days[dayIndex];
 
   return `${day} ${hours}:${minutes}`;
 }
 
-//Challenge 2
 function displayWeatherCondition(response) {
   document.querySelector("#city").innerHTML = response.data.name;
   document.querySelector("#temperature").innerHTML = Math.round(
